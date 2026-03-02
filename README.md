@@ -54,3 +54,30 @@ portfolio-fernando-rh/
 ├─ index.html      # Estrutura do site (seções e conteúdo)
 ├─ style.css       # Estilos (layout, temas, animações)
 └─ script.js       # Interações (tema, modal, particles, contadores)
+
+🛠️ Tecnologias Utilizadas
+
+HTML5 → estrutura e conteúdo
+
+CSS3 → layout responsivo, tema claro/escuro, animações
+
+JavaScript (Vanilla) → interações e efeitos (sem bibliotecas externas)
+
+📱 Responsividade
+
+O site é responsivo e se adapta para:
+
+✅ Desktop
+
+✅ Tablet
+
+✅ Celular
+
+📬 Contato
+
+Fernando Dias
+📍 Varjão de Minas, MG — Brasil
+📧 fh751763@gmail.com
+
+📞 (38) 99866-6771
+🔗 LinkedIn: https://www.linkedin.com/in/fernando-dias-50b21b299
