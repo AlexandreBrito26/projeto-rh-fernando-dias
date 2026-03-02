@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="dark light">
+  <title>Fernando Dias | Portfólio RH</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Particles (canvas) -->
+  <canvas id="particles" class="particles" aria-hidden="true"></canvas>
+
+  <!-- Fundo gradiente animado (leve) -->
+  <div class="bg-animated" aria-hidden="true"></div>
+
+  <!-- HEADER -->
+  <header class="topbar">
+    <div class="container topbar__wrap">
+      <a class="logo" href="#top" aria-label="Ir para o topo">
+        <span class="logo__mark">FD</span>
+      </a>
+
+      <nav class="nav" aria-label="Navegação principal">
+        <a class="nav__link" href="#sobre">Sobre</a>
+        <a class="nav__link" href="#skills">Skills</a>
+        <a class="nav__link" href="#projetos">Projetos</a>
+        <a class="nav__pill" href="#contato">Contato</a>
+
+        <button class="icon-btn" type="button" id="themeToggle" aria-label="Alternar tema" title="Alternar tema">
+          <span class="icon-btn__sun" aria-hidden="true">☀</span>
+          <span class="icon-btn__moon" aria-hidden="true">🌙</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top" class="page">
+    <!-- HERO GRID (igual ao seu: esquerda hero / direita cards) -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <!-- ESQUERDA -->
+        <div class="hero__left">
+          <div class="badge">
+            <span class="badge__dot" aria-hidden="true"></span>
+            Gestão de Recursos Humanos • Recrutamento • Rotinas
+          </div>
+
+          <h1 class="hero__title">Fernando Dias</h1>
+
+          <p class="hero__subtitle">
+            Estudante de Gestão de Recursos Humanos. Apoio em recrutamento e seleção,
+            organização de processos e desenvolvimento de pessoas com foco em uma rotina eficiente e humana.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="#projetos">Ver projetos</a>
+            <a class="btn btn--ghost" href="#contato">Falar comigo</a>
+          </div>
+
+          <!-- STATS (cards como no seu) -->
+          <div class="stats">
+            <article class="stat card">
+              <div class="stat__num" data-count="4" data-suffix="+">0</div>
+              <div class="stat__label">anos de experiência</div>
+              <div class="stat__hint">Atuação desde abr/2022</div>
+            </article>
+
+            <article class="stat card">
+              <div class="stat__num" data-count="4">0</div>
+              <div class="stat__label">projetos de RH</div>
+              <div class="stat__hint">modelos e rotinas simuladas</div>
+            </article>
+
+            <article class="stat card">
+              <div class="stat__num" data-count="2">0</div>
+              <div class="stat__label">formações</div>
+              <div class="stat__hint">UNINTER + Senac</div>
+            </article>
+          </div>
+        </div>
+
+        <!-- DIREITA -->
+        <div class="hero__right">
+          <article class="card profile">
+            <div class="profile__avatar" aria-hidden="true">F</div>
+            <div class="profile__text">
+              <h2 class="profile__name">Fernando Dias</h2>
+              <p class="profile__role">Recursos Humanos (em formação)</p>
+              <p class="profile__meta">Varjão de Minas, MG • Brasil</p>
+            </div>
+          </article>
+
+          <article class="card callout">
+            <h3 class="callout__title">Em busca da primeira oportunidade em RH</h3>
+            <p class="callout__text">
+              Aberto a vagas de <strong>auxiliar/assistente</strong>, <strong>estágio</strong> e
+              oportunidades para aprender na prática com organização, comunicação e rotinas administrativas.
+            </p>
+          </article>
+
+          <article class="card quick">
+            <h3 class="quick__title">Contato rápido</h3>
+            <div class="quick__row">
+              <span class="quick__label">Telefone</span>
+              <a class="quick__value" href="tel:+5538998666771">(38) 99866-6771</a>
+            </div>
+            <div class="quick__row">
+              <span class="quick__label">E-mail</span>
+              <a class="quick__value" href="mailto:fh751763@gmail.com">fh751763@gmail.com</a>
+            </div>
+            <div class="quick__row">
+              <span class="quick__label">LinkedIn</span>
+              <a class="quick__value" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/fernando-dias-50b21b299">
+                /fernando-dias-50b21b299
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="section">
+      <div class="container">
+        <h2 class="h-title">Sobre</h2>
+        <div class="grid-2">
+          <article class="card">
+            <h3 class="card__title">Resumo</h3>
+            <p class="muted">
+              Cursando <strong>Bacharelado em Gestão de Recursos Humanos</strong> pela <strong>UNINTER</strong>
+              (previsão nov/2026) e com formação técnica pelo <strong>Senac Minas</strong>.
+            </p>
+            <p class="muted">
+              Objetivo: atuar em RH com foco em recrutamento, rotinas organizacionais, atendimento e apoio ao time.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3 class="card__title">Foco de atuação</h3>
+            <ul class="chips">
+              <li>Recrutamento & Seleção</li>
+              <li>Administração de RH</li>
+              <li>Onboarding</li>
+              <li>Organização de dados</li>
+              <li>Atendimento e suporte</li>
+            </ul>
+            <div class="mini">
+              Diferenciais: <strong>organização</strong>, <strong>comunicação</strong> e <strong>rotina</strong>.
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section section--alt">
+      <div class="container">
+        <h2 class="h-title">Skills</h2>
+        <div class="cards-3">
+          <article class="card">
+            <h3 class="card__title">Atendimento ao cliente</h3>
+            <p class="muted">Comunicação clara, acolhimento e foco em solução.</p>
+          </article>
+          <article class="card">
+            <h3 class="card__title">Informática & organização</h3>
+            <p class="muted">Controle de informações, planilhas e rotinas administrativas.</p>
+          </article>
+          <article class="card">
+            <h3 class="card__title">Gestão de serviços</h3>
+            <p class="muted">Apoio operacional, agilidade e responsabilidade no dia a dia.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projetos" class="section">
+      <div class="container">
+        <h2 class="h-title">Projetos</h2>
+
+        <div class="projects">
+          <article class="card project">
+            <div class="project__top">
+              <span class="tag">R&S</span><span class="tag tag--ghost">Modelo</span>
+            </div>
+            <h3 class="project__title">Modelo de vaga + triagem</h3>
+            <p class="muted">Estrutura de vaga e checklist para triagem de currículos.</p>
+            <div class="project__actions">
+              <button class="btn btn--small btn--primary" type="button" data-modal="download" data-title="Modelo de Vaga + Triagem" data-desc="Em breve: PDF + exemplo. Enquanto isso, posso enviar por mensagem.">
+                Baixar (em breve)
+              </button>
+              <button class="btn btn--small btn--ghost" type="button" data-modal="download" data-title="Exemplo de triagem" data-desc="Em breve: exemplo preenchido para visualização.">
+                Ver exemplo
+              </button>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="project__top">
+              <span class="tag">Entrevista</span><span class="tag tag--ghost">Roteiro</span>
+            </div>
+            <h3 class="project__title">Roteiro de entrevista + avaliação</h3>
+            <p class="muted">Perguntas por competência + ficha simples de pontuação.</p>
+            <div class="project__actions">
+              <button class="btn btn--small btn--primary" type="button" data-modal="download" data-title="Roteiro de Entrevista" data-desc="Em breve: roteiro em PDF + ficha de avaliação.">
+                Baixar (em breve)
+              </button>
+              <button class="btn btn--small btn--ghost" type="button" data-modal="download" data-title="Ficha de avaliação" data-desc="Em breve: ficha pronta para imprimir/usar.">
+                Ver ficha
+              </button>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="project__top">
+              <span class="tag">Admin</span><span class="tag tag--ghost">Planilha</span>
+            </div>
+            <h3 class="project__title">Cadastro de colaboradores</h3>
+            <p class="muted">Planilha base para controle de dados e rotinas.</p>
+            <div class="project__actions">
+              <button class="btn btn--small btn--primary" type="button" data-modal="download" data-title="Planilha de cadastro" data-desc="Em breve: planilha para download (Excel/Google Sheets).">
+                Baixar (em breve)
+              </button>
+              <button class="btn btn--small btn--ghost" type="button" data-modal="download" data-title="Visualização" data-desc="Em breve: preview da planilha com campos essenciais.">
+                Visualizar
+              </button>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="project__top">
+              <span class="tag">Onboarding</span><span class="tag tag--ghost">Checklist</span>
+            </div>
+            <h3 class="project__title">Onboarding (7 dias)</h3>
+            <p class="muted">Checklist de integração com tarefas e acompanhamento.</p>
+            <div class="project__actions">
+              <button class="btn btn--small btn--primary" type="button" data-modal="download" data-title="Checklist de Onboarding" data-desc="Em breve: checklist pronto para uso e impressão.">
+                Baixar (em breve)
+              </button>
+              <button class="btn btn--small btn--ghost" type="button" data-modal="download" data-title="Modelo" data-desc="Em breve: modelo com campos para responsável e status.">
+                Ver modelo
+              </button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="section section--alt">
+      <div class="container">
+        <h2 class="h-title">Contato</h2>
+
+        <div class="grid-2">
+          <article class="card">
+            <h3 class="card__title">Mensagem rápida</h3>
+            <p class="muted">Copie e cole no WhatsApp/Email:</p>
+
+            <div class="copybox" role="textbox" tabindex="0">
+              Olá, Fernando! Vi seu portfólio e gostaria de conversar sobre oportunidades na área de Recursos Humanos (RH). Você tem disponibilidade para uma conversa?
+            </div>
+
+            <div class="copy-actions">
+              <button class="btn btn--small btn--primary" type="button" data-copy="message">Copiar mensagem</button>
+              <a class="btn btn--small btn--ghost" href="mailto:fh751763@gmail.com?subject=Oportunidade%20em%20RH&body=Olá,%20Fernando!%20Vi%20seu%20portfólio%20e%20gostaria%20de%20conversar%20sobre%20oportunidades%20na%20área%20de%20Recursos%20Humanos%20(RH).%20Você%20tem%20disponibilidade%20para%20uma%20conversa?">
+                Enviar por e-mail
+              </a>
+            </div>
+
+            <p class="small muted">Você pode personalizar com o nome da empresa e a vaga.</p>
+          </article>
+
+          <article class="card">
+            <h3 class="card__title">Links</h3>
+            <div class="contact-list">
+              <a class="contact" href="tel:+5538998666771">
+                <span class="contact__label">Telefone</span>
+                <span class="contact__value">(38) 99866-6771</span>
+              </a>
+              <a class="contact" href="mailto:fh751763@gmail.com">
+                <span class="contact__label">E-mail</span>
+                <span class="contact__value">fh751763@gmail.com</span>
+              </a>
+              <a class="contact" href="https://www.linkedin.com/in/fernando-dias-50b21b299" target="_blank" rel="noreferrer">
+                <span class="contact__label">LinkedIn</span>
+                <span class="contact__value">fernando-dias-50b21b299</span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer__wrap">
+        <p class="small muted">© <span id="year"></span> Fernando Dias • Portfólio RH</p>
+        <a class="small" href="#top">Voltar ao topo ↑</a>
+      </div>
+    </footer>
+  </main>
+
+  <!-- MODAL -->
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal__overlay" data-close="modal"></div>
+
+    <div class="modal__dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modal__top">
+        <h3 class="modal__title" id="modalTitle">Título</h3>
+        <button class="icon-btn icon-btn--plain" type="button" data-close="modal" aria-label="Fechar modal">✕</button>
+      </div>
+
+      <p class="modal__desc" id="modalDesc">Descrição</p>
+
+      <div class="modal__actions">
+        <a class="btn btn--small btn--primary" href="#contato">Entrar em contato</a>
+        <button class="btn btn--small btn--ghost" type="button" data-close="modal">Fechar</button>
+      </div>
+
+      <p class="small muted modal__hint">
+        Quando os arquivos estiverem prontos, troque os botões por links reais.
+      </p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
